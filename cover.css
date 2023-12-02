@@ -21,6 +21,11 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
+  text-decoration: underline; 
+}
+.btn-secondary:link {
+  text-decoration: none;
+  color: #333;
 }
 
 
@@ -61,10 +66,11 @@ body {
   align-items: center;
   min-height:120%;
   padding-top: 8%;
-  width:100%;
+  width: 100%;
   /* color: #fff; */
   background-color: rgba(0, 0, 0, .3);
   box-shadow:  0 0 5rem 30px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
   /* background-color: red;
   border: 1px solid yellow; */
 }
